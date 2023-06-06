@@ -10,7 +10,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
             @foreach ($posts as $post)
-                <article class="w-full h-80 bg-cover bg-center @if($loop->first) md:col-span-2 @endif" style="background-image: url(@if($post->image) {{Storage::url($post->image->url)}} @else https://i0.wp.com/delajusticia.com/wp-content/uploads/2015/12/pensando.png?ssl=1 @endif)">
+                <article class="w-full h-80 bg-cover bg-center @if($loop->first) md:col-span-2 @endif" style="background-image: url(@if($post->image) {{Storage::url($post->image->url)}} @else https://th.bing.com/th/id/OIP.Dw30k5uRvQVyNdQAlj0KWwHaIz?pid=ImgDet&rs=1 @endif)">
                    <div class="w-full h-full px-8 flex flex-col justify-center">
 
                         <div>
